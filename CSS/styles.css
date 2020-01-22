@@ -1,0 +1,38 @@
+
+body{
+    font-family: helvetica;
+    }
+
+
+header{   
+    background-color: lightgreen;
+}
+
+img{
+float: left;
+width: 40pc;
+    }
+ 
+
+article{
+        background-color: lightblue;
+        }
+
+    #left{
+        float: left;
+        width: 50%;
+    }
+    
+    #right{
+        float: right;
+        width: 50%;
+    }
+
+li{
+    display: inline;
+    color: black
+}
+
+footer{
+    background-color: brown;
+
