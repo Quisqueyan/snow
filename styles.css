@@ -1,22 +1,20 @@
-
-body{
-    position: relative;
-    font-family: helvetica;
-    }
-
-
-header{   
-    background-color: lightgreen;
+header{  
+    border-radius: 10px;
+    border-color: black; 
+   background-color: lightgreen;
+   height: 26pc;
  }
 
  #products{
      background-color: lightcyan;
  }
 
-img{
-float: left;
-width: 40pc;
-    }
+ img{
+    border-radius: 10px;
+    border-color: black;
+    float: left;
+    width: 39pc;
+        }
  
 
 article{
@@ -25,11 +23,15 @@ article{
         }
 
     #left{
+        border-radius: 20px;
+        border-color: black;
         float: left;
         width: 50%;
     }
     
     #right{
+        border-radius: 20px;
+        border-color: black;
         float: right;
         width: 50%;
     }
@@ -40,10 +42,9 @@ li{
 }
 
 footer{
-    width: 100%;
+    border-radius: 10px;
+        border-color: black;
+        width: 500px;
     height: 60px;
-    background-color: brown;
-    position: relative;
-    bottom: inherit;
+    background-color: brown;    
 }
-
