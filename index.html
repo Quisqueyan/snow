@@ -22,6 +22,22 @@
        </ul>
     </nav>
             <div> <h2> Snow Boards </h2> </div> 
+            <button onclick="myFunction()">Question of the day</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm(" do you love the freadom of snowboarding?")) {
+    txt = "So do we!";
+  } else {
+    txt = "your missing it :*(";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
     </header> 
 
     <main>
