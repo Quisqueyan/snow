@@ -16,16 +16,17 @@ if(confirm === true) {
 }*/
 
 var showOrder = function() {
-  var order = prompt('are you ready to shred');
+  var order = prompt('are you ready to shred?');
   var item;
 
   if (order === 'yes') {
-    item = '<img src="images/jorg-angeli.jpg">';
+    item = '<img id="popup" src="images/jorg-angeli.jpg">';
   } else if (order === 'no') {
-    item = '<img src="images/robson.jpg">';
+    item = '<img id="popup" src="images/robson.jpg">';
   } else{
-    item = '<img src="images/keep your secrets.jpg">';
+    item = '<img id="popup" src="images/keep your secrets.jpg">';
   }
 
   return item;
 }
+

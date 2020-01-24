@@ -1,8 +1,16 @@
 header{  
-    border-radius: 10px;
+    
     border-color: black; 
    background-color: lightgreen;
    height: 26pc;
+ }
+/* pop up is the image that shows up when you answer the question */
+ #popup{
+     padding-right: 100px;
+     padding-left: 10px;
+     float: right;
+     width: 450px;
+     height: 272px;
  }
 
  #products{
